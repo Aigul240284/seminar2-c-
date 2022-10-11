@@ -4,7 +4,7 @@
 //782 -> 8
 
 Console.Clear();
-Console.WriteLine("Введите трёхзначное число");
+Console.WriteLine("Введите трёхзначное число - ");
 int num = int.Parse(Console.ReadLine() ?? "");
 int a1 = num % 100;
 int a2 = a1 / 10;
