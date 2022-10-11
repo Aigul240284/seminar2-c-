@@ -2,10 +2,9 @@
 // или сообщает, что третьей цифры нет.
 //645 -> 5
 //78 -> третьей цифры нет
-//32679 -> 6
+//32679 -> 6 
 Console.Clear();
-Console.WriteLine("Введите число");
-int num = int.Parse(Console.ReadLine() ?? "");
+int num = new Random().Next();
 int a1 = num;
 if (a1 > 99)
 {
